@@ -6,7 +6,6 @@
 using namespace std;
 
 void afficherMenu() {
-    std::cout << "Bienvenue sur Provi Ring!" << std::endl << std::endl;
     std::cout << "Actions disponibles :" << std::endl;
     std::cout << "1. Attaquer" << std::endl;
     std::cout << "2. Lancer un sort" << std::endl;
@@ -20,7 +19,9 @@ int main()
 {
     Personnage joueur1, joueur2; //création du joueur 1 et 2
 
-    std::string nomJoueur1, nomJoueur2; 
+    std::string nomJoueur1, nomJoueur2;
+
+    std::cout << "Bienvenue sur Provi Ring!" << std::endl << std::endl;
 
     //Le joueur 1 choisit son nom
     std::cout << "Nom du joueur 1 : ";
