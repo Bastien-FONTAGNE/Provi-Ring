@@ -2,7 +2,10 @@
 
 Petit jeu coder en c++ en tour par tour<br>
 
-1.0:<br>
+v1.1:<br>
+-ajout d'un bouton pour déclarer forfait
+
+v1.0:<br>
 
 -2 joueurs en 1 contre 1<br>
 -Il faut rentrer son nom pour chaque joueur<br>
