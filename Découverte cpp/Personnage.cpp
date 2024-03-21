@@ -34,6 +34,8 @@ void Personnage::afficherEtat() const
     cout << "Mana: " << m_mana << endl;
     m_arme.afficher();
     m_sort.afficher();
+    cout << m_nombrePotionVie << " de potion de vie restante" << endl;
+    cout << m_nombrePotionMana << " de potion de mana restante" << endl;
     cout << endl;
 }
 
@@ -87,7 +89,7 @@ void Personnage::boirePotionDeVie(int quantitePotion)
     }
 
     else {
-        cout << nom << "n'a plus de potion de vie!" << endl << endl;
+        cout << nom << " n'a plus de potion de vie!" << endl << endl;
     }
 
 
@@ -105,12 +107,13 @@ void Personnage::boirePotionMana(int quantitePotion)
             m_mana = 100;
         }
 
-        cout << nom << "Utilise une potion de mana" << endl << endl;
+        cout << nom << " Utilise une potion de mana" << endl << endl;
+        m_nombrePotionMana--;
     }
 
     else
     {
-        cout << nom << "n'a plus de potion de mana!" << endl << endl;
+        cout << nom << " n'a plus de potion de mana!" << endl << endl;
     }
 }
 
