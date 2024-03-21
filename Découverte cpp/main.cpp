@@ -65,7 +65,7 @@ int main()
         }
 
         if (!joueur2.estVivant()) {
-            cout << joueur2.getNom() << "a etait vaincu!" << endl << endl;
+            cout << joueur2.getNom() << " a etait vaincu!" << endl << endl;
             finCombat = true;
             break;
         }
