@@ -59,7 +59,11 @@ int main()
         if (choix == 4) {
             joueur1.boirePotionMana(50);
         }
-        if (choix < 1 || choix > 4) {
+        if (choix == 5) {
+            cout << joueur1.getNom() << " a declare forfait, victoire de " << joueur2.getNom() << endl << endl;
+            break;
+        }
+        if (choix < 1 || choix > 5) {
             cout << "action invalide" << endl << endl;
             
         }
@@ -91,7 +95,11 @@ int main()
         if (choix == 4) {
             joueur2.boirePotionMana(50);
         }
-        if (choix < 1 || choix > 4) {
+        if (choix == 5) {
+            cout << joueur2.getNom() << " a declare forfait, victoire de " << joueur1.getNom() << endl << endl;
+            break;
+        }
+        if (choix < 1 || choix > 5) {
             cout << "action invalide" << endl << endl;
             
         }
