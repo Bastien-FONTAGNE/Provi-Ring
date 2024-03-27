@@ -1,4 +1,4 @@
-#include "Personnage.h"
+﻿#include "Personnage.h"
 #include <string>
 #include <iostream>
 #include "Arme.h"
@@ -17,11 +17,17 @@ void afficherMenu() {
 
 int main()
 {
-    Personnage joueur1, joueur2; //cr�ation du joueur 1 et 2
+    Personnage joueur1, joueur2; //création du joueur 1 et 2
 
     std::string nomJoueur1, nomJoueur2;
 
-    std::cout << "Bienvenue sur Provi Ring!" << std::endl << std::endl;
+    std::cout << "Bienvenue sur " << std::endl << std::endl;
+    std::cout << " ____                 _       ____  _             " << std::endl;
+    std::cout << "|  _ \\ _ __ _____   _(_)     |  _ \\(_)_ __   __ _ " << std::endl;
+    std::cout << "| |_) | '__/ _ \\ \\ / / |_____| |_) | | '_ \\ / _` |" << std::endl;
+    std::cout << "|  __/| | | (_) \\ V /| |_____|  _ <| | | | | (_| |" << std::endl;
+    std::cout << "|_|   |_|  \\___/ \\_/ |_|     |_| \\_\\_|_| |_|\\__, |" << std::endl;
+    std::cout << "                                            |___/ " << std::endl;
 
     //Le joueur 1 choisit son nom
     std::cout << "Nom du joueur 1 : ";
