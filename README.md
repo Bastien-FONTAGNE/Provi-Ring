@@ -2,6 +2,9 @@
 
 Petit jeu coder en c++ en tour par tour<br>
 
+v1.1.1:<br>
+-équlibrage de la potion de mana (rétablit 20 de mana au lieu de 50)
+
 v1.1:<br>
 -ajout d'un bouton pour déclarer forfait
 
