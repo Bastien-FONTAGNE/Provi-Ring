@@ -15,5 +15,5 @@ v1.0:<br>
 -une arme pour attaquer<br>
 -Un sort qui inflige plus de dégats que l'attaque<br>
 -Bar de vie et de mana<br>
--2 Potion qui rajoute 20 PV et une potion qui rajoute 50 Mana<br>
+-2 Potion qui rajoute 20 PV et une potion qui rajoute 20 Mana<br>
 
