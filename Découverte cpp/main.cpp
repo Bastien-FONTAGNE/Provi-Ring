@@ -63,7 +63,7 @@ int main()
             joueur1.boirePotionDeVie(20);
         }
         if (choix == 4) {
-            joueur1.boirePotionMana(50);
+            joueur1.boirePotionMana(20);
         }
         if (choix == 5) {
             cout << joueur1.getNom() << " a declare forfait, victoire de " << joueur2.getNom() << endl << endl;
@@ -99,7 +99,7 @@ int main()
             joueur2.boirePotionDeVie(20);
         }
         if (choix == 4) {
-            joueur2.boirePotionMana(50);
+            joueur2.boirePotionMana(20);
         }
         if (choix == 5) {
             cout << joueur2.getNom() << " a declare forfait, victoire de " << joueur1.getNom() << endl << endl;
